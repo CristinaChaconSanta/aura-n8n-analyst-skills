@@ -1,0 +1,17 @@
+﻿# Secrets and dependencies
+.env
+.env.*
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Client proposals — not for repo
+MFLOWW_Propuestas_Automatizacion*.txt
+
+# Include only skills/ and CLAUDE.md
+/*
+!/skills/
+!/skills/**
+!/CLAUDE.md
+!/.gitignore
